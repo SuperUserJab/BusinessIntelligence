@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>GradjevinskaFirma_Cube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>XvBl/rrK9oPCDNEz3A9k56dHUPA=11.01.2018. 22:07:1411.01.2018. 22:07:14</TimeStamp>
+        <ID>
+          <String>Gradjevinska Firma DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>587VdFELOS9kUZF9b6I9lWrBzRg=11.01.2018. 22:08:0611.01.2018. 22:08:04</TimeStamp>
+        <ID>
+          <String>Gradjevinska Firma DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zYMrNhuuJwaiatCwsYrIJwJGM7Q=11.01.2018. 22:38:1711.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Dim Projekat</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>60O4V/xpyipjlU4y7E+LZz0Lw7E=11.01.2018. 22:38:3411.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Dim Investitor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mfJkIRRVxQwYfqiGUmLYeH08Wck=11.01.2018. 22:39:0211.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Dim Datum</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G2+0/n2khXNlBH+V5n8fEqy7L8s=11.01.2018. 22:39:1711.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Dim Tip Uplate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HxsUEOUn8sBLbNpHg9C1Mw4zvxc=11.01.2018. 22:40:2411.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Dim Lokacija</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wUueE4v2eWEodbcQav+2ybTAfhU=11.01.2018. 22:39:3111.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Dim Sef Projekta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>thB9y1lRsUdy9MvLf/q+M4a3CmI=11.01.2018. 22:39:3211.01.2018. 22:36:27QtjOhGpHKLC8oZ60/nLOZTuDWnw=11.01.2018. 22:36:2811.01.2018. 22:36:27</TimeStamp>
+        <ID>
+          <String>Gradjevinska Firma DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>n0ONKRpiHECXWJEFBBNZdyDKx5A=11.01.2018. 21:04:1311.01.2018. 21:04:13</TimeStamp>
+      <ID>
+        <String>GradjevinskaFirma_Cube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-01-11T21:40:49.266667Z</LastDeployed>
+</DeploymentSnapshot>
